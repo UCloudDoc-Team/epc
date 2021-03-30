@@ -36,6 +36,5 @@ EPC支持以下功能：
 在EPC平台上，软件安装与使用的最佳实践
 
 * [VASP](/epc/vasp)
-* [OpenFoam](/epc/openfoam)
 
 
