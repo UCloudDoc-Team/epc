@@ -9,5 +9,4 @@
    * [超算中心](/epc/compareToHpcCenter.md)
 * 软件安装指南
    * [VASP](/epc/vasp.md)
-   * [OpenFoam](/epc/openfoam.md)
 
