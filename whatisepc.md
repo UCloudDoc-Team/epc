@@ -7,6 +7,7 @@ EPC计算节点支持的CPU型号如下：
 * [AMD EPYC 7H12](https://www.amd.com/zh-hans/products/cpu/amd-epyc-7h12)（基础主频2.6GHz，全核最大主频3.3GHz）
 
 EPC计算节点支持的规格如下：
+
 | CPU（核） | 内存（GB） | 系统盘（GB） |
 |-----|-----|-----------|
 | 32 | 64 | 200 |
