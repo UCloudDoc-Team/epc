@@ -34,7 +34,7 @@ vi makefile.include
 
 此处将`makefile.include`文件中的`-xHOST`替换为`-march=core-avx2`，并保存
 
-?> 参数调整的原因为：-xHost为Intel平台的推荐参数，而EPC计算节点则接使用AMD平台的CPU，需要使用-march=core-avx2参数进行编译，不然会致使编译错误
+?> 参数调整的原因为：-xHost为Intel平台的推荐参数，而EPC计算节点则为AMD平台的CPU，需要使用-march=core-avx2参数进行编译，不然将导致编译错误
 
 ```
 make all
