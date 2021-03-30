@@ -16,7 +16,6 @@ yum groupinstall "Development Tools"
 wget https://registrationcenter-download.intel.com/akdlm/irc_nas/17226/l_BaseKit_b_2021.1.10.2261.sh
 chmod +x l_BaseKit_b_2021.1.10.2261.sh
 ./l_BaseKit_b_2021.1.10.2261.sh
-
 wget https://registrationcenter-download.intel.com/akdlm/irc_nas/17229/l_HPCKit_b_2021.1.10.2477_offline.sh 
 chmod +x l_HPCKit_b_2021.1.10.2477_offline.sh 
 ./l_HPCKit_b_2021.1.10.2477_offline.sh 
