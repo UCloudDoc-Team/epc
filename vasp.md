@@ -10,20 +10,25 @@
 yum -y install cmake pkgconfig
 yum groupinstall "Development Tools"
 ```
-2. 运行BaseKit与HpcKit脚本
+2. 下载Intel oneAPI base toolkit并安装
 
 ```
 wget https://registrationcenter-download.intel.com/akdlm/irc_nas/17226/l_BaseKit_b_2021.1.10.2261.sh
 chmod +x l_BaseKit_b_2021.1.10.2261.sh
 ./l_BaseKit_b_2021.1.10.2261.sh
+```
+
+3. 下载Intel HpcKit并安装
+
+```
 wget https://registrationcenter-download.intel.com/akdlm/irc_nas/17229/l_HPCKit_b_2021.1.10.2477_offline.sh 
 chmod +x l_HPCKit_b_2021.1.10.2477_offline.sh 
 ./l_HPCKit_b_2021.1.10.2477_offline.sh 
 ```
 
-3. [注册](https://www.vasp.at/registration_form/)并下载vasp
+4. [注册](https://www.vasp.at/registration_form/)并下载vasp
  
-4. 编译vasp（以6.1.0版本举例）
+5. 编译vasp（以6.1.0版本举例）
 
 ```
 cd vasp.6.1.0
