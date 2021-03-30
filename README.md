@@ -24,7 +24,6 @@ EPC支持以下功能：
 
 * [EPC计算节点](/epc/whatisepc)
 * [网络文件存储](/epc/smb)
-* [盘柜速递](/epc/pannelExpress)
 
 ## 2.厂商对比
 
