@@ -39,9 +39,3 @@ vi makefile.include
 ```
 make all
 ```
-
-5. 运行程序
-
-```
-vasp
-````
