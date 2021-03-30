@@ -2,7 +2,8 @@
 
 * [概览](/epc/README)
 * 产品简介
-   * [什么是EPC](/epc/whatisepc.md)
+   * [计算节点](/epc/whatisepc.md)
+   * [网络文件存储](/epc/smb.md)
 * 厂商对比
    * [云计算服务商](/epc/compareToCloud.md)
    * [超算中心](/epc/compareToHpcCenter.md)
