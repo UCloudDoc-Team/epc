@@ -21,13 +21,13 @@ EPC支持以下功能：
 
 对比超算中心与云计算服务商，UCloud EPC平台的优势所在。
 
-* [对比云计算服务商]
-* [对比超算中心]
+* [对比云计算服务商](/epc/compareToCloud)
+* [对比超算中心](/epc/CompareToHpcCenter)
 
 
 ## 2.最佳实践
 
 在EPC平台上，软件安装与使用的最佳实践
 
-* [VASP](相对链接)
-* [OpenFoam](相对链接)
+* [VASP](/epc/vasp)
+* [OpenFoam](/epc/openfoam)
