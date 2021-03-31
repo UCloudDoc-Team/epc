@@ -1,6 +1,6 @@
 # VASP
 
-软件官网：[www.vasp.at](www.vasp.at)
+软件官网：[www.vasp.at](http://www.vasp.at)
 
 ## 安装步骤
 
