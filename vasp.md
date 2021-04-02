@@ -32,6 +32,7 @@ chmod +x l_HPCKit_b_2021.1.10.2477_offline.sh
 5. 编译vasp（以6.1.0版本举例）
 
 ```bash
+source /opt/intel/oneapi/setvars.sh
 cd vasp.6.1.0
 cp arch/makefile.include.linux_intel makefile.include
 echo \$MKLROOT=$MKLROOT >> makefile.include
