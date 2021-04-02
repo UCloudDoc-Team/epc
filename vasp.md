@@ -43,6 +43,7 @@ vi makefile.include
 ?> 参数调整的原因为：-xHost为Intel平台的推荐参数，而EPC计算节点则为AMD平台的CPU，可以通过使用-march=core-avx2参数，编译出使用高级向量扩展指令的目标程序。如果不替换-xHost，则会导致编译错误
 
 ```bash
+source /opt/intel/oneapi/setvars.sh
 make all
 ```
 
