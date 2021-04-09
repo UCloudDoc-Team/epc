@@ -7,6 +7,7 @@
 * 厂商对比
    * [云计算服务商](/epc/compareToCloud.md)
    * [超算中心](/epc/compareToHpcCenter.md)
-* 软件安装指南
-   * [VASP](/epc/vasp.md)
+* 操作指南
+   * [VASP安装](/epc/vasp.md)
+   * [大文件下载](/epc/guide/fileacceleration.md)
 
