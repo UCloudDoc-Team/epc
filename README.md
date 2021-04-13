@@ -30,6 +30,7 @@ EPC支持以下功能：
 
 * [对比云计算服务商](/epc/compareToCloud)
 * [对比超算中心](/epc/compareToHpcCenter)
+* [融合型算力提供商](/epc/compareToMixed)
 
 
 ## 3.操作指南
