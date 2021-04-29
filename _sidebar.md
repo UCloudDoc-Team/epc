@@ -11,4 +11,4 @@
 * 操作指南
    * [VASP安装](/epc/vasp.md)
    * [大文件下载](/epc/guide/fileacceleration.md)
-
+* [计费说明](/epc/charge.md)
