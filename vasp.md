@@ -81,37 +81,26 @@ CPP_OPTIONS= -DHOST=\"LinuxIFC\"\
              -Duse_bse_te \
              -Dtbdyn \
              -Dfock_dblbuf
-
 CPP        = fpp -f_com=no -free -w0  $*$(FUFFIX) $*$(SUFFIX) $(CPP_OPTIONS)
-
 FC         = mpiifort
 FCL        = mpiifort -mkl=sequential
-
 FREE       = -free -names lowercase
-
 #FFLAGS     = -assume byterecl -w -xHOST
 FFLAGS     = -assume byterecl -w -march=core-avx2
 OFLAG      = -O2
 OFLAG_IN   = $(OFLAG)
 DEBUG      = -O0
-
 MKLROOT    = /opt/intel/oneapi/mkl/latest
 MKL_PATH   = $(MKLROOT)/lib/intel64
 BLAS       =
 LAPACK     =
 BLACS      = -lmkl_blacs_intelmpi_lp64
 SCALAPACK  = $(MKL_PATH)/libmkl_scalapack_lp64.a $(BLACS)
-
 OBJECTS    = fftmpiw.o fftmpi_map.o fft3dlib.o fftw3d.o
-
 INCS       =-I$(MKLROOT)/include/fftw
-
 LLIBS      = $(SCALAPACK) $(LAPACK) $(BLAS)
-
-
 OBJECTS_O1 += fftw3d.o fftmpi.o fftmpiw.o
 OBJECTS_O2 += fft3dlib.o
-
 # For what used to be vasp.5.lib
 CPP_LIB    = $(CPP)
 FC_LIB     = $(FC)
