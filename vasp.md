@@ -71,7 +71,6 @@ make all
 
 9. 附录（makefile.include）
 ```bash
-
 # Precompiler options
 CPP_OPTIONS= -DHOST=\"LinuxIFC\"\
              -DMPI -DMPI_BLOCK=8000 -Duse_collective \
