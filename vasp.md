@@ -67,6 +67,7 @@ make all
 8. 运行vasp：
 ```bash
    /opt/ompi/bin/mpirun -np 32 --oversubscribe --mca pml ucx --mca btl ^uct -x UCX_NET_DEVICES=mlx5_0:1 --allow-run-as-root  /{your_vasp_path}/vasp.6.1.0/bin/vasp_std
+   #此处须将32改为您的真实核数
 ```
 
 9. 附录（makefile.include）
