@@ -23,6 +23,7 @@ EPC支持以下功能：
 
 * [EPC计算节点](/epc/whatisepc)
 * [网络文件存储](/epc/smb)
+* [MI100-GPU型主机](/epc/mi100)
 
 ## 2.厂商对比
 
