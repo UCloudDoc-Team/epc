@@ -36,7 +36,7 @@ EPC支持以下功能：
 
 ## 3.操作指南
 
-在EPC平台上，软件安装与产品使用的最佳实践
+在EPC平台上，软件安装与产品使用的最佳实践。
 
 * [VASP安装](/epc/vasp)
 * [大文件下载](/epc/guide/fileacceleration)
