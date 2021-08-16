@@ -1,5 +1,5 @@
 <!-- 请勿添加产品标题，标题行将由系统自动增加，名称将于您申请邮件提供的仓库名称一致 -->
-  
+
 * [概览](/epc/README)
 * 产品简介
    * [计算节点](/epc/whatisepc.md)
@@ -12,4 +12,6 @@
 * 操作指南
    * [VASP安装](/epc/vasp.md)
    * [大文件下载](/epc/guide/fileacceleration.md)
+   * [常用软件](/epc/software.md)
+   * [常见问题](/epc/adaption.md)
 * [计费说明](/epc/charge.md)
