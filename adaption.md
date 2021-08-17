@@ -7,5 +7,5 @@ AMD EPYC 2是2019年8月发布，如果遇到部分软件不能安装或不能�
 |ANSYS-fluent-19           | Windows 2019 x64| AMD EPYC 2|支持         |
 |STAR-CCM+13.04/Abaqus 2019| Windows 2019 x64| AMD EPYC 2|支持<流固耦合>|
 |MATLAB 2018               | CentOS 7.6 x64  | AMD EPYC 2|支持         |
-|Materials Studio 2019     | Windows 2019 x64| AMD EPYC 2| 支持        |
+|Materials Studio 2019     | Windows 2019 x64| AMD EPYC 2|支持         |
 
