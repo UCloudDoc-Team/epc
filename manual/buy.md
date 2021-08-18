@@ -29,3 +29,4 @@
    登录用户名：采用默认，Windows 为“Administrator”，Linux 如果选择 CentOS 镜像， 则为“root”；如果选择 Ubuntu 镜像，则为“ubuntu” 
 
    设置密码：请务必设置强安全性的密码，用于登录主机；
+
