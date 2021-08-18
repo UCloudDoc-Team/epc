@@ -43,7 +43,6 @@ EPC支持以下功能：
   * [登录云主机](/epc/manual/login)
   * [CentOS安装GUI桌面](/epc/manual/GUI)
   * [EPC的FTP上传下载](/epc/manual/FTP.md)
-  * [FTP客户端](/epc/manual/client.md)
   * [关闭IE增强的安全配置](/epc/manual/IE.md)
   * [镜像的使用](/epc/manual/mirror.md)
 * [VASP安装](/epc/vasp)
