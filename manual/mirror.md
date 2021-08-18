@@ -18,7 +18,7 @@
 
 2. 点击【创建主机】 ，选择要使用的自制镜像（例如刚刚制作的 OpenFOAM），选择配置后，即可使用镜像购买新主机。
 
-![](../../epc/images/mirror1.png)
+![mirror1](../../epc/images/mirror1.png)
 
 
 
