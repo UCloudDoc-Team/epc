@@ -2,9 +2,7 @@
 
 ## Linux系统 ##
 
-如果云主机是Linux系统，可使用[PuTTy](https://www.chiark.greenend.org.uk/~sgtatham/putty/)登录，输入云主机的公网 IP即可SSH登录；初次登录，账号是root，密码是在购买云主机时设置的密码。
-
-![](../../epc/images/login.png)
+如果云主机是Linux系统，可使用[PuTTy](https://www.chiark.greenend.org.uk/~sgtatham/putty/)登录，输入云主机的公网 IP即可SSH登录；初次登录，账号是root，密码是在购买云主机时设置的密码。![](../../epc/images/login.png)
 
 ## Window系统 ##
 
