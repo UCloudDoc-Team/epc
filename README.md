@@ -40,7 +40,7 @@ EPC支持以下功能：
 
 * 使用手册
   * [购买云主机](/epc/manual/buy)
-  * [查看共享存储](/epc/manual/share.md)
+  * [共享存储](/epc/manual/share.md)
   * [登录云主机](/epc/manual/login)
   * [CentOS安装GUI桌面](/epc/manual/GUI)
   * [EPC的FTP上传下载](/epc/manual/FTP.md)
