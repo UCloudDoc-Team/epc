@@ -4,8 +4,8 @@
 
 Linux系统使用NFS存储，购买后挂载到 /172.16.0.XX/NFSSharedFiles 目录，可在命令行输入df命令查看；
 
-![buy6](../../accessgw/images/buy6-0404938.png)
+![buy6](../../epc/images/buy6.png)
 
 Windows系统挂载SMB存储，购买后挂载为一个网络盘符，与本地盘使用无异。
 
-![buy7](../../accessgw/images/buy7.png)
+![buy7](../../epc/images/buy7.png)
