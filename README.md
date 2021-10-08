@@ -27,7 +27,7 @@ EPC支持以下功能：
 
 ## 2.厂商对比
 
-对云计算服务商比超算中心与，UCloud EPC平台的优势所在。
+对比云计算服务商与超算中心，UCloud EPC平台的优势所在：
 
 * [对比云计算服务商](/epc/compareToCloud)
 * [对比超算中心](/epc/compareToHpcCenter)
