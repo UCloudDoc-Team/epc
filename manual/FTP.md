@@ -4,7 +4,7 @@
 
 ![](../../epc/images/ftp.png) 
 
-2. 点击【显示】，输入手机验证码，然后使用 FTP 客户端(Filezilla)登陆即可。
+2. 按照如图提供的用户名、密码、地址和端口号信息，使用 FTP 客户端(Filezilla)登陆即可。
 
 ![](../../epc/images/ftp1.png)
 
