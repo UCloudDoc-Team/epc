@@ -12,7 +12,7 @@
 
    镜像：UCloud 官方纯净版系统、或者您自己制作的系统镜像（已经部署好 HPC 软件）
 
-   网络：外网带宽默认 5Mb，可选教育网加速；
+   网络：外网带宽默认 5Mb
 
    增加外网带宽，参考如下链接：[https://docs.ucloud.cn/unet/eip/guide](https://docs.ucloud.cn/unet/eip/guide?id=%e8%b0%83%e6%95%b4ip%e5%b8%a6%e5%ae%bd)
 
