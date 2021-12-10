@@ -1,14 +1,16 @@
 # EPC-Cluster产品文档
-## 瞄点
-[overall](#overall)
+## 核心问题
+[完整流程](#overall)
 
-[filestash](#filestash)
+[文件管理-上传](#filestash)
 
-[diyimage](#diyimage)
+[文件管理-下载](#filestash2)
 
-[howtorun](#howtorun)
+[自制镜像](#diyimage)
 
-[howtorun_detail](#howtorun_detail)
+[拼写命令-简易](#howtorun)
+
+[拼写命令-详细](#howtorun_detail)
 
 <span id="overall"></span>
 
@@ -68,6 +70,8 @@ lmp_mpi < ./inano.lj
 
 ### 查看任务/下载输出文件
 <img src="./files/get1.png">
+
+<span id="filestash2"></span>
 
 <img src="./files/get2.png">
 
