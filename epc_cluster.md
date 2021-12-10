@@ -16,7 +16,7 @@
 
 ## 一次任务的完整流程
 ### 算例数据
-lammps: [输入数据](./files/fastone_lammps_case.tgz)
+lammps: [输入数据](./epc/files/fastone_lammps_case.tgz)
 
 ### 创建任务
 <img src="./files/cat1.png">
