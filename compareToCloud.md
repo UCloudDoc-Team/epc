@@ -16,7 +16,7 @@
 * 支持GPU类型：
   * [Nvidia Tesla V100](https://www.nvidia.com/en-us/data-center/v100/)
   * [Nvdia Tesla T4](https://www.nvidia.com/en-us/data-center/tesla-t4/)
-* [源站链接](https://help.aliyun.com/document_detail/57680.html?spm=a2c4g.11186623.6.544.6f7c57barEwsyj)
+* [源站链接](https://help.aliyun.com/document_detail/57680.html?spm=a2c4g.11186623.6.544.6f7c57barEwsyj) 
 
 ### 计费方式 ### 
 * 除了资源费用，收取额外管理费用（中国大陆地域：0.02元/核/小时，海外地域：0.03元/核/小时）
