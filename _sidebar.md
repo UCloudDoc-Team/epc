@@ -5,6 +5,7 @@
    * [计算节点](/epc/whatisepc.md)
    * [网络文件存储](/epc/smb.md)
    * [MI100-GPU型主机](/epc/mi100.md)
+   * [高性能计算集群](/epc/epc_cluster.md)
 * 厂商对比
    * [云计算服务商](/epc/compareToCloud.md)
    * [超算中心](/epc/compareToHpcCenter.md)
