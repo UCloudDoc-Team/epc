@@ -65,7 +65,7 @@ lmp_mpi < ./inano.lj
 ```shell
 ## 进入输入文件所在目录
 cd fightzone
-## 对应lammps软件，指定输入文件可以用<<，也可以用-i
+## 对应lammps软件，指定输入文件可以用<，也可以用-i
 lmp_mpi -i ./inano.lj
 ```
 
