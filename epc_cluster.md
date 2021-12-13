@@ -69,11 +69,11 @@ cd fightzone
 lmp_mpi -i ./inano.lj
 ```
 
-成功的任务（可从"项目数据"下载输出文件）：
-<img src="./files/run5.png">
-
 #### 还是有疑问？
 [完整的指令拼写](#howtorun_detail)
+
+成功的任务（可从"项目数据"下载输出文件）：
+<img src="./files/run5.png">
 
 ### 查看任务/下载输出文件
 <img src="./files/get1.png">
