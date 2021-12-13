@@ -31,7 +31,7 @@ epc cluster提供自制镜像(singularity)能力，如需自制镜像：联系�
 
 <span id="filestash"></span>
 
-### 上传项目数据(filestash)
+### 上传项目数据
 <img src="./files/upload1.png">
 
 <img src="./files/upload2.png">
