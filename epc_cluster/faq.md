@@ -1,20 +1,13 @@
 # 常见问题
 ## 文件管理
-### 上传
-<img src="./files/upload1.png">
+### 上传数据
+![](/images/upload1.png)
+![](/images/upload2.png)
 
-<img src="./files/upload2.png">
-
-### 下载
-<img src="./files/get1.png">
-
-<span id="filestash2"></span>
-
-<img src="./files/get2.png">
-
-<img src="./files/get3.png">
-
-<span id="howtorun_detail"></span>
+### 下载数据
+![](/images/get1.png)
+![](/images/get2.png)
+![](/images/get3.png)
 
 ## 自制镜像
 软件列表没有我想要的软件或软件版本？
@@ -23,9 +16,7 @@ epc cluster提供自制镜像(singularity)能力，如需自制镜像：联系�
 ## 拼写命令
 ### 简单版
 点击启动按钮后，出现命令输入框，输入框里有给出命令的模板，根据模板补全其中的问号（？？）部分，即可拼写出该软件的典型命令。
-
-<img src="./files/run3.png">
-
+![](/images/run3.png)
 例如:
 
 ```shell
@@ -36,7 +27,7 @@ lmp_mpi < ./inano.lj
 ```
 在用户正确上传inano.lj(如图)的前提下，任务运行成功
 
-<img src="./files/run4.png">
+![](/images/run4.png)
 
 注：命令模板只是对初次上手的提示，不是所有命令都能通过填充问号部分(？？)就能得到，熟悉的用户可以删掉提示并完全填写自己的指令，例如：如果上图中文件inano.lj位于目录fightzone内，则命令行可以是：
 
@@ -49,7 +40,7 @@ lmp_mpi -i ./inano.lj
 
 > 还是有疑问？[完整的指令拼写](#howtorun_detail)
 > 成功的任务（可从"项目数据"下载输出文件）：
-> <img src="./files/run5.png">
+> ![](/images/run5.png)
 
 
 ### 详细版
