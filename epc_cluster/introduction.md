@@ -3,7 +3,7 @@
 以Lammps软件为例: [输入数据](http://117.50.22.60/inano.lj)
 
 ## Step2.创建任务
-！[]（/images/cat1.png）
+![]（/images/cat1.png）
 <span id="diyimage"></span>
 
 <img src="./files/cat2.png">
