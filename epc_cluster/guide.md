@@ -1,4 +1,4 @@
-# EPC-Cluster产品文档
+# 操作指南
 ## 核心问题
 [完整流程](#overall)
 
@@ -14,7 +14,7 @@
 
 <span id="overall"></span>
 
-## 一次任务的完整流程
+## 1.任务流程
 ### 算例数据
 以Lammps软件为例: [输入数据](http://117.50.22.60/inano.lj)
 
@@ -25,9 +25,8 @@
 
 <img src="./files/cat2.png">
 
-#### 软件列表没有我想要的软件或软件版本？
-
-epc cluster提供自制镜像(singularity)能力，如需自制镜像：联系我们上传您的singularity文件，并指定此文件(xx.sif)想要显示的软件和版本，然后此文件表示的镜像将新增在上方软件和版本选择中
+> 软件列表没有我想要的软件或软件版本？
+> epc cluster提供自制镜像(singularity)能力，如需自制镜像：联系我们上传您的singularity文件，并指定此文件(xx.sif)想要显示的软件和版本，然后此文件表示的镜像将新增在上方软件和版本选择中
 
 <span id="filestash"></span>
 
