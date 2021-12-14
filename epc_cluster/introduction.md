@@ -15,5 +15,8 @@
 ![](/images/run1.png)
 ![](/images/run2.png)
 
-
+## Step5.监控任务与下载结果
+![](/images/get1.png)
+![](/images/get2.png)
+![](/images/get3.png)
 
