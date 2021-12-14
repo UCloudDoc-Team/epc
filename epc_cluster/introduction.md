@@ -4,33 +4,21 @@
 
 ## Step2.创建任务
 ![](/images/cat1.png)
-<span id="diyimage"></span>
-
-<img src="./files/cat2.png">
-
-<span id="filestash"></span>
+![](/images/cat2.png)
 
 ## Step3.上传项目数据
-<img src="./files/upload1.png">
 
-<img src="./files/upload2.png">
+![](/images/upload1.png)
+![](/images/upload2.png)
 
 ## Step4.启动任务
-<img src="./files/run1.png">
-
-<img src="./files/run2.png">
-
-<span id="howtorun"></span>
-
+![](/images/run1.png)
+![](/images/run2.png)
 
 ### 查看任务/下载输出文件
-<img src="./files/get1.png">
 
-<span id="filestash2"></span>
+![](/images/get1.png)
+![](/images/get2.png)
+![](/images/get3.png)
 
-<img src="./files/get2.png">
-
-<img src="./files/get3.png">
-
-<span id="howtorun_detail"></span>
 
