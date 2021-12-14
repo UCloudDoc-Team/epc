@@ -15,10 +15,5 @@
 ![](/images/run1.png)
 ![](/images/run2.png)
 
-### 查看任务/下载输出文件
-
-![](/images/get1.png)
-![](/images/get2.png)
-![](/images/get3.png)
 
 
