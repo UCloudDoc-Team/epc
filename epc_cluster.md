@@ -38,23 +38,24 @@
 ### 启动任务
 <img src="./files/run1.png">
 
-<img src="./files/run2.png">
+<img src="./files/run2-1.5.png">
 
 <span id="howtorun"></span>
 
 #### 在epc cluster上拼写自己的第一个命令
 点击启动按钮后，出现命令输入框，输入框里有给出命令的模板，根据模板补全其中的问号（？？）部分，即可拼写出该软件的典型命令。
 
-<img src="./files/run3.png">
+<img src="./files/run3-1.5.png">
 
 例如:
 
 ```shell
 #软件给出
-lmp_mpi < ./??
+mpirun -np ${TOTAL_NPROC} lmp_mpi -i ./??
 #用户补全为
-lmp_mpi < ./inano.lj
+mpirun -np ${TOTAL_NPROC} lmp_mpi -i ./inano.lj
 ```
+
 在用户正确上传inano.lj(如图)的前提下，任务运行成功
 
 <img src="./files/run4.png">
@@ -65,7 +66,7 @@ lmp_mpi < ./inano.lj
 ## 进入输入文件所在目录
 cd fightzone
 ## 对应lammps软件，指定输入文件可以用<，也可以用-i
-lmp_mpi -i ./inano.lj
+mpirun -np ${TOTAL_NPROC} lmp_mpi -i ./inano.lj
 ```
 
 #### 还是有疑问？
@@ -115,13 +116,19 @@ srun mpirun -np 64 singularity exec -H `pwd` /gv_images_production/public/gromac
 ```shell
 cd gromacs_water/1536
 gmx_mpi grompp -f pme.mdp -c conf.gro -p topol.top -o water_pme.tpr
-gmx_mpi mdrun -v -ntomp 1 -nsteps 5000 -pin on -s water_pme.tpr
+mpirun -np 64 gmx_mpi mdrun -v -ntomp 1 -nsteps 5000 -pin on -s water_pme.tpr
+```
+环境变量`${TOTAL_NPROC}`可代替当前任务的配置核数，例如:如果当前任务配置是64核心，则`${TOTAL_NPROC}`=64。因此上述命令可改为：
+```shell
+cd gromacs_water/1536
+gmx_mpi grompp -f pme.mdp -c conf.gro -p topol.top -o water_pme.tpr
+mpirun -np ${TOTAL_NPROC} gmx_mpi mdrun -v -ntomp 1 -nsteps 5000 -pin on -s water_pme.tpr
 ```
 
 #### 总结
 
-| 指令序号| srun | openmpi | singularity | 用户指令(唯一需要用户在命令行输入框填入的指令) |
+| 指令序号| srun | openmpi | singularity | 用户指令 |
 |---|  ---  | ----  | --- | --- |
+| | 省略|用户可选 | 省略|用户填写 |
 |指令1| \ | \ |singularity exec -H `pwd` {镜像目录}/gromacs.sif | gmx_mpi grompp -f pme.mdp -c conf.gro -p topol.top -o water_pme.tpr|
-|指令2| srun |mpirun -np 64 |singularity exec -H `pwd` {镜像目录}/gromacs.sif| gmx_mpi mdrun -v -ntomp 1 -nsteps 5000 -pin on -s water_pme.tpr |
-
+|指令2| srun |mpirun -np 64 或 mpirun -np ${TOTAL_NPROC} |singularity exec -H `pwd` {镜像目录}/gromacs.sif| gmx_mpi mdrun -v -ntomp 1 -nsteps 5000 -pin on -s water_pme.tpr |
