@@ -1,6 +1,6 @@
 # 操作指南
 ## Step1.算例数据
-以Lammps软件为例: 
+以Lammps软件为例:
 ```
 # 3d Lennard-Jones melt
 
@@ -48,10 +48,9 @@ run             10
 
 ## Step4.启动任务
 ![](/images/run1.png)
-![](/images/run2.png)
+![](/images/run2-1.5.png)
 
 ## Step5.监控任务与下载结果
 ![](/images/get1.png)
 ![](/images/get2.png)
 ![](/images/get3.png)
-

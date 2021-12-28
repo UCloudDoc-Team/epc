@@ -16,7 +16,7 @@ epc cluster提供自制镜像(singularity)能力，如需自制镜像：联系�
 ## 拼写命令
 ### 简单版
 点击启动按钮后，出现命令输入框，输入框里有给出命令的模板，根据模板补全其中的问号（？？）部分，即可拼写出该软件的典型命令。
-![](/images/run3.png)
+![](/images/run3-1.5.png)
 例如:
 
 ```shell
@@ -44,7 +44,7 @@ lmp_mpi -i ./inano.lj
 
 
 ### 详细版
-无需关注与命令无关的openmpi/slurm/singularity指令，仅填写运行任务本身的指令即可。以Gromacs软件为例：
+无需关注与命令无关的srun/slurm/singularity指令，仅（如果需要用mpirun运行时）填写mpirun和运行任务本身的指令即可。以Gromacs软件为例：
 
 #### 在裸机上运行的命令输入
 
@@ -72,14 +72,19 @@ srun mpirun -np 64 singularity exec -H `pwd` /gv_images_production/public/gromac
 ```shell
 cd gromacs_water/1536
 gmx_mpi grompp -f pme.mdp -c conf.gro -p topol.top -o water_pme.tpr
-gmx_mpi mdrun -v -ntomp 1 -nsteps 5000 -pin on -s water_pme.tpr
+mpirun -np 64 gmx_mpi mdrun -v -ntomp 1 -nsteps 5000 -pin on -s water_pme.tpr
+```
+环境变量`${TOTAL_NPROC}`可代替当前任务的配置核数，例如:如果当前任务配置是64核心，则`${TOTAL_NPROC}`=64。因此上述命令可改为：
+```shell
+cd gromacs_water/1536
+gmx_mpi grompp -f pme.mdp -c conf.gro -p topol.top -o water_pme.tpr
+mpirun -np ${TOTAL_NPROC} gmx_mpi mdrun -v -ntomp 1 -nsteps 5000 -pin on -s water_pme.tpr
 ```
 
 #### 总结
 
-| 指令序号| srun | openmpi | singularity | 用户指令(唯一需要用户在命令行输入框填入的指令) |
+| 指令序号| srun | openmpi | singularity | 用户指令 |
 |---|  ---  | ----  | --- | --- |
+| | 省略|用户可选 | 省略|用户填写 |
 |指令1| \ | \ |singularity exec -H `pwd` {镜像目录}/gromacs.sif | gmx_mpi grompp -f pme.mdp -c conf.gro -p topol.top -o water_pme.tpr|
-|指令2| srun |mpirun -np 64 |singularity exec -H `pwd` {镜像目录}/gromacs.sif| gmx_mpi mdrun -v -ntomp 1 -nsteps 5000 -pin on -s water_pme.tpr |
-
-
+|指令2| srun |mpirun -np 64 或 mpirun -np ${TOTAL_NPROC} |singularity exec -H `pwd` {镜像目录}/gromacs.sif| gmx_mpi mdrun -v -ntomp 1 -nsteps 5000 -pin on -s water_pme.tpr |
