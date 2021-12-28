@@ -21,9 +21,9 @@ epc cluster提供自制镜像(singularity)能力，如需自制镜像：联系�
 
 ```shell
 #软件给出
-lmp_mpi < ./??
+mpirun -np ${TOTAL_NPROC} lmp_mpi -i ./??
 #用户补全为
-lmp_mpi < ./inano.lj
+mpirun -np ${TOTAL_NPROC} lmp_mpi -i ./inano.lj
 ```
 在用户正确上传inano.lj(如图)的前提下，任务运行成功
 
@@ -35,7 +35,7 @@ lmp_mpi < ./inano.lj
 ## 进入输入文件所在目录
 cd fightzone
 ## 对应lammps软件，指定输入文件可以用<，也可以用-i
-lmp_mpi -i ./inano.lj
+mpirun -np ${TOTAL_NPROC} lmp_mpi -i ./inano.lj
 ```
 
 > 还是有疑问？[完整的指令拼写](#howtorun_detail)
