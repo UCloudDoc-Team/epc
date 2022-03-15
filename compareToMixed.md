@@ -10,6 +10,6 @@
 * 相比公有云提供商，无自有全球骨干网、自建BGP网络，使用各类公网、专线组合而成，不利于数据上传下载
 * 相比公有云提供商，无底层存储优化能力，对于重IO的高性能计算场景无法专项优化
 * 链接：[云端Cloudam 算力组成](https://www.cloudam.cn/views/productservice/supercomputing.html)
-* 链接：[并行科技 算力组成](https://www.paratera.com/pages/cloudService/cloudService.html)
+* 链接：[并行科技 算力组成](https://www.paratera.com/cpfw/csy/)
 
 * SSH管理额外收费：0.2元/小时
