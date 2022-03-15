@@ -31,6 +31,7 @@
    * [常见问题](/epc/adaption.md)
 
 * [计费说明]() 
-     * [计费指南](/epc/charge/EPC_charge.md)
-     * [续费]()
-     * [回收]()
+     * [EPC计算节点计费](/epc/charge/EPC_charge.md)
+     * [EPC集群计费](/epc/charge/EPC-Cluster_charge.md)
+     * [续费](/epc/charge/renew_charge.md)
+     * [回收](/epc/charge/recycle.md)
