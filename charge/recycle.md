@@ -26,12 +26,12 @@
 
 ### 共享存储
 回收节点流程图如下：
-![img](/recycle.png)
+![](/https://github.com/UCloudDoc-Team/epc/blob/master/charge/recycle.png)
+
 当挂载在当前共享存储上的最后一台EPC计算节点删除时，该存储进入回收流程，系统将给您发送回收预警信息邮件。
 
 当挂载在当前共享存储上的最后一台EPC计算节点删除7天后，该存储将被回收，系统将给您发送资源回收邮件。
-回收节点流程图如下：
-![](/charge/recycle.png)
+
 
 
 ## 后付资源回收
