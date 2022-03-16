@@ -32,6 +32,6 @@
 
 * [计费说明]() 
      * [EPC计算节点计费](/epc/charge/EPC_charge.md)
-     * [EPC集群计费](/epc/charge/EPC-Cluster_charge.md)
+     * [EPC计算集群计费](/epc/charge/EPC-Cluster_charge.md)
      * [续费](/epc/charge/renew.md)
      * [回收](/epc/charge/recycle.md)
