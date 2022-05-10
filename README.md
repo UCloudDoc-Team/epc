@@ -1,5 +1,5 @@
 ## 加入产品交流群>>获取最新动态
-<img src=/images/wechat.png width=300 align=center />
+![](/images/wechat.png){:height="70%" width="70%"}
 
 # 概览
 云极（EPC）是UCloud提供的高性能计算产品，其底层为屡受好评的UCloud快杰云主机，旨在为用户提供基于公有云技术的超高性能算力，以及涵盖数据传输、数据计算、数据可视化处理等一站式的使用体验。
