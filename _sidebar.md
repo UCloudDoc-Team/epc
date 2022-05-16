@@ -26,7 +26,6 @@
       * [关闭IE增强的安全配置](/epc/manual/IE.md)
       * [镜像的使用](/epc/manual/mirror.md)
    * [VASP安装](/epc/vasp.md)
-   * [大文件下载](/epc/guide/fileacceleration.md)
    * [常用软件](/epc/software.md)
    * [常见问题](/epc/adaption.md)
 
