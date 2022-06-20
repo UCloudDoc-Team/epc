@@ -6,7 +6,7 @@
 
 ## 上传项目数据
 参考算例:
-[算例](gromacs_water.tgz)
+[算例](./gromacs_water.tgz)
 
 
 ![](/images/gromacs/2.png)
