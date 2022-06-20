@@ -8,7 +8,9 @@
    * 高性能计算集群
       * [操作指南](/epc/epc_cluster/introduction.md)
       * [常见问题](/epc/epc_cluster/faq.md)
-   * [GPU促销机型](/epc/epc_cluster/gpusel.md)
+   * EPC-Cluster HPC操作大赏
+      * [GROMACS](/epc/epc_cluster/gromacs.md)
+   * [GPU促销机型操作指南](/epc/epc_cluster/gpusel.md)
    * [MI100-GPU型主机](/epc/mi100.md)
 
 * 厂商对比
