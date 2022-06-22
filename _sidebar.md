@@ -10,6 +10,7 @@
       * [常见问题](/epc/epc_cluster/faq.md)
    * EPC-Cluster HPC操作大赏
       * [GROMACS](/epc/epc_cluster/gromacs.md)
+   * [US3数据同步指南](/epc/epc_cluster/us3.md)
    * [GPU促销机型操作指南](/epc/epc_cluster/gpusel.md)
    * [MI100-GPU型主机](/epc/mi100.md)
 
