@@ -56,8 +56,8 @@ df -h #检查挂载结果
 
 | benchmark | command |
 |---|  ---  |
-| UHOST-LOCAL | ```fio -direct=1 -iodepth=1 -rw=read -ioengine=libaio -bs=256k -size=3G -numjobs=8 -runtime=1000 -group_reporting -name=test -directory=/data``` |
-| EPC-NFS | ```fio -direct=1 -iodepth=1 -rw=read -ioengine=libaio -bs=256k -size=3G -numjobs=8 -runtime=1000 -group_reporting -name=test -directory=/mnter```|
+| UHOST-LOCAL | ```fio -direct=1 -iodepth=1 -rw=read -ioengine=libaio -bs=256k -size=3G -numjobs=8 -runtime=1000 -group_reporting -name=test -filename=/data/demofile``` |
+| EPC-NFS | ```fio -direct=1 -iodepth=1 -rw=read -ioengine=libaio -bs=256k -size=3G -numjobs=8 -runtime=1000 -group_reporting -name=test -filename=/mnter/demofile```|
 
 RESULT:
 ### UHOST本地~2.2GBs
