@@ -27,7 +27,7 @@ PS：先进入EPC控制台：https://console.ucloud.cn/uhost/uhost?hpc=true
 | 1 | 请在上海2A创建，因为EPC在上海2A，为了高速互通和低延迟保持同地域） |
 | 2 | 磁盘读写的瓶颈有：IO/CPU，例如我需要4TB的磁盘，为了2TBs的原生带宽，至少创建8核的机器，以保证CPU不成为磁盘瓶颈|
 
-## STEP3：进入UHOST开启UFS服务器 - 以CentOS8.3为例
+## STEP3：进入UHOST开启NFS服务器 - 以CentOS8.3为例
 ```
 yum install nfs-utils
 vim /etc/exports
@@ -36,7 +36,7 @@ vim /etc/exports
 systemctl start nfs-server.service
 ```
 
-## STEP4: 进入EPC挂载UFS
+## STEP4: 进入EPC挂载NFS
 ```
 yum install nfs-utils
 mkdir /mnter(或自定义挂载目录)
