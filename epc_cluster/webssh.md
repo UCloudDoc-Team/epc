@@ -4,7 +4,7 @@ EPC Cluster集群任务支持webssh和批处理以及图形化界面（部分软
 
 
 ## 项目数据文档结构
-![](https://github.com/UCloudDoc-Team/epc/blob/master/images/webssh/data%20directory.png)
+![](/images/webssh/datadirectory.png)
 
 ## 通过WebSSH熟悉目录结构/做解压文件等预处理
 ### 创建WebSSH镜像任务
