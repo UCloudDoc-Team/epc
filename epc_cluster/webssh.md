@@ -3,7 +3,7 @@
 EPC Cluster集群任务支持webssh和批处理以及图形化界面（部分软件支持）三种操作方式，本篇主要介绍webssh和批处理的操作。
 
 
-## 项目数据文档结构
+## 项目数据目录结构
 
 ![](/images/webssh/datadirectory.png)
 
