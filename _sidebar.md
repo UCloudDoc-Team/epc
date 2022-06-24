@@ -8,7 +8,7 @@
    * 高性能计算集群
       * [操作指南](/epc/epc_cluster/introduction.md)
       * [常见问题](/epc/epc_cluster/faq.md)
-	  * [数据拓扑与重试](/epc/epc_cluster/webssh.md)
+	  
    * EPC-Cluster HPC操作大赏
       * [GROMACS](/epc/epc_cluster/gromacs.md)
    * [US3数据同步指南](/epc/epc_cluster/us3.md)
@@ -31,6 +31,7 @@
       * [关闭IE增强的安全配置](/epc/manual/IE.md)
       * [镜像的使用](/epc/manual/mirror.md)
 	  * [EPC单机挂载UHOST-RSSD高速磁盘](/epc/epc_cluster/rssd.md)
+      * [webssh及批处理操作指南](/epc/epc_cluster/webssh.md)
    * [VASP安装](/epc/vasp.md)
    * [常用软件](/epc/software.md)
    * [常见问题](/epc/adaption.md)
