@@ -4,7 +4,7 @@ EPC Cluster集群任务支持webssh和批处理以及图形化界面（部分软
 
 
 ## 项目数据文档结构
-![](/images/webssh/data directory.png)
+![](https://github.com/UCloudDoc-Team/epc/blob/master/images/webssh/data%20directory.png)
 
 ## 通过WebSSH熟悉目录结构/做解压文件等预处理
 ### 创建WebSSH镜像任务
@@ -30,6 +30,7 @@ EPC Cluster集群任务支持webssh和批处理以及图形化界面（部分软
 ?> 不同任务的关联数据也可以直接放在父级目录交互，epc-task目录只是方便用户结构化和区分同名数据做的预设
 
 ?> 如果您对运行出任务结果不满意，或者需要再次运行，我们提供同任务重试的功能。
+
 符合条件（任务运行过且未在运行中，例如已撤销/已完成）的任务可以RERUN，再次进入任务提交窗口。
 ![](/images/webssh/RERUN.png)
 ![](/images/webssh/RUNOF.png)
