@@ -4,6 +4,7 @@ EPC Cluster集群任务支持webssh和批处理以及图形化界面（部分软
 
 
 ## 项目数据文档结构
+
 ![](/images/webssh/datadirectory.png)
 
 ## 通过WebSSH熟悉目录结构/做解压文件等预处理
@@ -20,7 +21,7 @@ EPC Cluster集群任务支持webssh和批处理以及图形化界面（部分软
 
 
 ## 通过批处理访问处理后的数据/正式运行
-### 创建集群任务（您可以选择我们平台上已支持的软件，此处已openFOAM为例）
+### 创建集群任务（您可以选择我们平台上已支持的软件，此处以openFOAM为例）
 ![](/images/webssh/CATOF.png)
 ### 以批处理方式运行
 ![](/images/webssh/RUNOF.png)
