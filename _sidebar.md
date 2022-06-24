@@ -8,6 +8,7 @@
    * 高性能计算集群
       * [操作指南](/epc/epc_cluster/introduction.md)
       * [常见问题](/epc/epc_cluster/faq.md)
+	  * [数据拓扑与重试](/epc/epc_cluster/webssh.md)
    * EPC-Cluster HPC操作大赏
       * [GROMACS](/epc/epc_cluster/gromacs.md)
    * [US3数据同步指南](/epc/epc_cluster/us3.md)
