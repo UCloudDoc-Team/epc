@@ -8,17 +8,19 @@
    * 高性能计算集群
       * [操作指南](/epc/epc_cluster/introduction.md)
       * [常见问题](/epc/epc_cluster/faq.md)
-	  * [数据拓扑与重试](/epc/epc_cluster/webssh.md)
-   * EPC-Cluster HPC操作大赏
-      * [GROMACS](/epc/epc_cluster/gromacs.md)
-   * [US3数据同步指南](/epc/epc_cluster/us3.md)
-   * [GPU促销机型操作指南](/epc/epc_cluster/gpusel.md)
    * [MI100-GPU型主机](/epc/mi100.md)
 
 * 厂商对比
    * [云计算服务商](/epc/compareToCloud.md)
    * [超算中心](/epc/compareToHpcCenter.md)
    * [融合型算力提供商](/epc/compareToMixed.md)
+
+* DAILY TIPS
+   * [GROMACS](/epc/epc_cluster/gromacs.md)
+   * [EPC单机挂载UHOST-RSSD高速磁盘](/epc/epc_cluster/rssd.md)
+   * [GPU促销机型操作指南](/epc/epc_cluster/gpusel.md)
+   * [US3数据同步指南](/epc/epc_cluster/us3.md)
+   * [数据拓扑与重试](/epc/epc_cluster/webssh.md) 
    
 * 操作指南
 
@@ -30,7 +32,6 @@
       * [EPC的FTP上传下载](/epc/manual/FTP.md)
       * [关闭IE增强的安全配置](/epc/manual/IE.md)
       * [镜像的使用](/epc/manual/mirror.md)
-	  * [EPC单机挂载UHOST-RSSD高速磁盘](/epc/epc_cluster/rssd.md)
    * [VASP安装](/epc/vasp.md)
    * [常用软件](/epc/software.md)
    * [常见问题](/epc/adaption.md)
