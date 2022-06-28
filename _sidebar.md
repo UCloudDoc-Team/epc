@@ -16,11 +16,12 @@
    * [融合型算力提供商](/epc/compareToMixed.md)
 
 * DAILY TIPS
-   * [GROMACS](/epc/epc_cluster/gromacs.md)
-   * [EPC单机挂载UHOST-RSSD高速磁盘](/epc/epc_cluster/rssd.md)
-   * [GPU促销机型操作指南](/epc/epc_cluster/gpusel.md)
-   * [US3数据同步指南](/epc/epc_cluster/us3.md)
-   * [数据拓扑与重试](/epc/epc_cluster/webssh.md) 
+   * [DAILYTIPS](/epc/epc_cluster/dailytips.md)
+	  * [GROMACS](/epc/epc_cluster/gromacs.md)
+	  * [EPC单机挂载UHOST-RSSD高速磁盘](/epc/epc_cluster/rssd.md)
+	  * [GPU促销机型操作指南](/epc/epc_cluster/gpusel.md)
+	  * [US3数据同步指南](/epc/epc_cluster/us3.md)
+	  * [数据拓扑与重试](/epc/epc_cluster/webssh.md) 
    
 * 操作指南
 
