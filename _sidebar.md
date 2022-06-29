@@ -35,7 +35,7 @@
      * [续费](/epc/charge/renew.md)
      * [回收](/epc/charge/recycle.md)
 
-* DAILY TIPS (/epc/epc_cluster/dailytips.md)
+* DAILY TIPS 
      * [GPU促销机型操作指南](/epc/epc_cluster/gpusel.md)
      * [US3数据同步操作指南](/epc/epc_cluster/us3.md)
      * [Webssh及批处理操作指南](/epc/epc_cluster/webssh.md) 
