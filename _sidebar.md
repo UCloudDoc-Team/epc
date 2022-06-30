@@ -18,6 +18,7 @@
 * DAILY TIPS
    * [DAILYTIPS](/epc/epc_cluster/dailytips.md)
 	  * [GROMACS](/epc/epc_cluster/gromacs.md)
+	  * [OpenFOAM](/epc/epc_cluster/of.md)
 	  * [EPC单机挂载UHOST-RSSD高速磁盘](/epc/epc_cluster/rssd.md)
 	  * [GPU促销机型操作指南](/epc/epc_cluster/gpusel.md)
 	  * [US3数据同步指南](/epc/epc_cluster/us3.md)

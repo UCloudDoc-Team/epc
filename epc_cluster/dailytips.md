@@ -1,3 +1,8 @@
+DAILY TIPS 0628
+跳过虚拟化，想要纯粹的物理环境？使用UCLOUD裸金属服务器，探索无损的机械性能🚀
+裸金属产品页：https://www.ucloud.cn/site/product/bms.html
+裸金属控制台：https://console.ucloud.cn/uphost/uphost/create
+
 DAILY TIPS 0624
 https://docs.ucloud.cn/epc/epc_cluster/webssh
 EPC集群超便捷但是我一输入命令就报错？？第一次用WebSSH HACK进集群本地，洞悉数据拓扑后轻松提交命令，从此和报错SAYGOODBYE[偷笑]。单次运行命令后结果不完美？用RERUN功能原地重跑任务，直到打磨出完美的数据[加油]
