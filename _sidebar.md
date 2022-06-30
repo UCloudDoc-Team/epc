@@ -14,18 +14,8 @@
    * [云计算服务商](/epc/compareToCloud.md)
    * [超算中心](/epc/compareToHpcCenter.md)
    * [融合型算力提供商](/epc/compareToMixed.md)
-
-* DAILY TIPS
-   * [DAILYTIPS](/epc/epc_cluster/dailytips.md)
-	  * [GROMACS](/epc/epc_cluster/gromacs.md)
-	  * [OpenFOAM](/epc/epc_cluster/of.md)
-	  * [EPC单机挂载UHOST-RSSD高速磁盘](/epc/epc_cluster/rssd.md)
-	  * [GPU促销机型操作指南](/epc/epc_cluster/gpusel.md)
-	  * [US3数据同步指南](/epc/epc_cluster/us3.md)
-	  * [数据拓扑与重试](/epc/epc_cluster/webssh.md) 
    
 * 操作指南
-
    *  使用手册 
       * [购买云主机](/epc/manual/buy.md)
       * [共享存储](/epc/manual/share.md)
@@ -43,3 +33,11 @@
      * [EPC计算集群计费](/epc/charge/EPC-Cluster_charge.md)
      * [续费](/epc/charge/renew.md)
      * [回收](/epc/charge/recycle.md)
+
+* DAILY TIPS 
+     * [GPU促销机型操作指南](/epc/epc_cluster/gpusel.md)
+     * [US3数据同步操作指南](/epc/epc_cluster/us3.md)
+     * [Webssh及批处理操作指南](/epc/epc_cluster/webssh.md) 
+     * [以GROMACS为例，EPC集群操作指南](/epc/epc_cluster/gromacs.md)
+	 * [以OpenFOAM为例，EPC集群操作指南](/epc/epc_cluster/of.md)
+     * [EPC单机挂载UHOST-RSSD高速磁盘](/epc/epc_cluster/rssd.md)
