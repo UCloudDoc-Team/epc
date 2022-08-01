@@ -39,8 +39,8 @@ systemctl start nfs-server.service
 ## STEP4: 进入EPC挂载NFS
 ```
 yum install nfs-utils
-mkdir /mnter(或自定义挂载目录)
-mount -t nfs 10.23.x.x(UHOST的内网IP):/data /mnter
+mkdir -p /mnt(或自定义挂载目录)
+mount -t nfs 10.23.x.x(UHOST的内网IP):/data /mnt
 df -h #检查挂载结果
 ```
 
@@ -52,12 +52,12 @@ df -h #检查挂载结果
 ### HINT
 分别benchmark：UHOST本地的RSSD数据盘，和EPC通过NFS挂载UHOST-RSSD的挂载点
 
-说白了区别就是：一个在UHOST执行fio，目标目录是数据盘/data，一个在EPC执行fio，目标目录是挂载点/mnter（或者你自己定义的挂载目录）
+说白了区别就是：一个在UHOST执行fio，目标目录是数据盘/data，一个在EPC执行fio，目标目录是挂载点/mnt（或者你自己定义的挂载目录）
 
 | benchmark | command |
 |---|  ---  |
 | UHOST-LOCAL | ```fio -direct=1 -iodepth=1 -rw=read -ioengine=libaio -bs=256k -size=3G -numjobs=8 -runtime=1000 -group_reporting -name=test -filename=/data/demofile``` |
-| EPC-NFS | ```fio -direct=1 -iodepth=1 -rw=read -ioengine=libaio -bs=256k -size=3G -numjobs=8 -runtime=1000 -group_reporting -name=test -filename=/mnter/demofile```|
+| EPC-NFS | ```fio -direct=1 -iodepth=1 -rw=read -ioengine=libaio -bs=256k -size=3G -numjobs=8 -runtime=1000 -group_reporting -name=test -filename=/mnt/demofile```|
 
 RESULT:
 ### UHOST本地~2.2GBs
