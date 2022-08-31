@@ -35,9 +35,9 @@
      * [回收](/epc/charge/recycle.md)
 
 * DAILY TIPS 
-     * [GPU促销机型操作指南](/epc/epc_cluster/gpusel.md)
+    
      * [US3数据同步操作指南](/epc/epc_cluster/us3.md)
      * [Webssh及批处理操作指南](/epc/epc_cluster/webssh.md) 
      * [以GROMACS为例，EPC集群操作指南](/epc/epc_cluster/gromacs.md)
 	 * [以OpenFOAM为例，EPC集群操作指南](/epc/epc_cluster/of.md)
-     * [EPC单机挂载UHOST-RSSD高速磁盘](/epc/epc_cluster/rssd.md)
+     
