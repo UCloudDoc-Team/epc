@@ -5,8 +5,8 @@
 * 产品简介
    * [EPC计算节点](/epc/whatisepc.md)
    * [EPC高性能计算集群](/epc/instruction.md)
-     * [共享集群](/epc/epc_cluster/intruduction.md)
      * [独占集群](/epc/EPC30/instruction.md)
+     * [共享集群](/epc/epc_cluster/intruduction.md)
    * [网络文件存储](/epc/smb.md)
 
 * 厂商对比
@@ -23,8 +23,9 @@
       * [EPC的FTP上传下载](/epc/manual/FTP.md)
       * [关闭IE增强的安全配置](/epc/manual/IE.md)
       * [镜像的使用](/epc/manual/mirror.md)
-   *  [EPC共享集群](/epc/epc_cluster/introduction.md)
    *  [EPC独占集群](/epc/EPC30/manual.md)
+   *  [EPC共享集群](/epc/epc_cluster/introduction.md)
+   
 
 * [计费说明]() 
      * [EPC计算节点计费](/epc/charge/EPC_charge.md)
