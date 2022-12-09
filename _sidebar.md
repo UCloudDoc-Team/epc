@@ -24,7 +24,7 @@
       * [关闭IE增强的安全配置](/epc/manual/IE.md)
       * [镜像的使用](/epc/manual/mirror.md)
    *  [EPC共享集群](/epc/epc_cluster/introduction.md)
-   *  [EPC独占集群](/epc/EPC30/manual.md）
+   *  [EPC独占集群](/epc/EPC30/manual.md)
 
 * [计费说明]() 
      * [EPC计算节点计费](/epc/charge/EPC_charge.md)
@@ -32,7 +32,7 @@
      * [续费](/epc/charge/renew.md)
      * [回收](/epc/charge/recycle.md)
 
-** [FAQ]() 
+* [FAQ]() 
    * [VASP安装](/epc/vasp.md)
    * [常见问题](/epc/adaption.md)
 
