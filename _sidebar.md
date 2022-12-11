@@ -4,9 +4,9 @@
 
 * 产品简介
    * [EPC计算节点](/epc/whatisepc.md)
-   * [EPC高性能计算集群](/epc/instruction.md)
-     * [独占集群](/epc/EPC30/instruction.md)
-     * [共享集群](/epc/epc_cluster/intruduction.md)
+   * [EPC高性能计算集群](/epc/instroduction.md)
+     * [独占集群](/epc/EPC30/instroduction.md)
+     * [共享集群](/epc/epc_cluster/guide.md)
    * [网络文件存储](/epc/smb.md)
 
 * 厂商对比
