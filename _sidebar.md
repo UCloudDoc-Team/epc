@@ -5,7 +5,7 @@
      * [概览](/epc/instroduction.md)
      * [独占集群](/epc/EPC30/instroduction.md)
      * [共享集群](/epc/epc_cluster/guide.md)
-   * [网络文件存储](/epc/smb.md)
+   * [共享存储](/epc/smb.md)
 
 * 厂商对比
    * [云计算服务商](/epc/compareToCloud.md)
