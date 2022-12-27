@@ -31,7 +31,7 @@
 
 * FAQ
    * [VASP安装](/epc/vasp.md)
-   * [常见问题](/epc/adaption.md)
+   * [软件无法运行问题](/epc/adaption.md)
 
 
      
