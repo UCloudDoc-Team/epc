@@ -1,4 +1,5 @@
-* [动态与公告](epc/Document_details.md)
+* 动态
+   * [动态与公告](epc/Document_details.md)
 * 产品简介
    * [EPC计算节点](/epc/whatisepc.md)
    * EPC高性能计算集群
