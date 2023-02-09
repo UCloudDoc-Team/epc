@@ -7,10 +7,6 @@
      * [独占集群](/epc/EPC30/instroduction.md)
      * [共享集群](/epc/epc_cluster/guide.md)
    * [共享存储](/epc/smb.md)
- * 厂商对比
-   * [云计算服务商](/epc/compareToCloud.md)
-   * [超算中心](/epc/compareToHpcCenter.md)
-   * [融合型算力提供商](/epc/compareToMixed.md)
  * 操作指南
    *  EPC计算节点
       * [购买云主机](/epc/manual/buy.md)
