@@ -9,6 +9,8 @@
 选择节点配置，然后点击【立即运行】。
 
 ![image](/images/EPC3.0/epc3.0_create2.png)
+![image](/images/EPC3.0/epc3.0_create2_2.png)
+![image](/images/EPC3.0/epc3.0_create2_3.png)
 
 创建集群后，集群及节点状态如下：
 
