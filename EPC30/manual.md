@@ -12,7 +12,7 @@
 ![image](/images/EPC3.0/epc3.0_create2_2.png)
 ![image](/images/EPC3.0/epc3.0_create2_3.png)
 
-创建集群后，集群及节点状态如下：
+创建集群后，集群及节点状态如下:
 
 ![image](/images/EPC3.0/epc3.0_create3.png)
 
@@ -30,7 +30,7 @@
 
 用终端登录集群，如果是Windows终端，可以使用putty或xshell的工具。
 
-查看集群(SLURM)状态
+查看集群(SLURM)状态:
 
 ![image](/images/EPC3.0/login_03.png)
 
@@ -71,7 +71,7 @@ mpirun -np $SLURM_NPROCS gmx_mpi mdrun -v -ntomp 1 -nsteps 10000 -pin on -s wate
 
 ![image](/images/EPC3.0/login_11.png)
 
-输入用户认证密码
+输入用户认证密码:
 
 ![image](/images/EPC3.0/login_12.png)
 
