@@ -79,7 +79,7 @@ mpirun -np $SLURM_NPROCS gmx_mpi mdrun -v -ntomp 1 -nsteps 10000 -pin on -s wate
 
 ![image](/images/EPC3.0/login_13.png)
 
-备注：可根据桌面大小设置屏幕分辨率
+备注：可根据桌面大小设置屏幕分辨率。
 
 ![image](/images/EPC3.0/login_14.png)
 
