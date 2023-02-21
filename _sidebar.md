@@ -19,7 +19,7 @@
  * FAQ
    * [VASP安装](/epc/vasp.md)
    * [软件无法运行问题](/epc/adaption.md)
-   * [关闭IE增强的安全配置](/epc/manual/IE.md)
+   * [如何关闭IE增强的安全配置](/epc/manual/IE.md)
 
 
      
