@@ -14,19 +14,52 @@
 ![image](/images/EPC3.0/list01.png)
 
 点击【计算直连0】或者【计算直连1】等其他计算直连，可正常登录计算节点。
+![image](/images/EPC3.0/login_12.png)
 
 
-
-## 访问共享存储
+## 共享存储文件上传和下载
 
 计算节点创建成功之后，共享存储同步创建成功，展示资源列表页上方。
 共享存储可通过计算节点内部登录：
 
 ![image](/images/EPC3.0/FSx02.png)
 
-也可通过FTP或者SFTP密码登录：
+### 通过 FTP/SFTP 上传下载
+**适用于Windows、macOS、Linux 操作系统**
 
-![image](/images/EPC3.0/FSx01.png)
+在“超算存储”点击【详情】
+
+![image](/images/EPC3.0/upload_01.png)
+
+按照如图提供的用户名、密码、地址和端口号信息，使用 FTP/SFTP 客户端(Filezilla)登陆。
+
+![image](/images/EPC3.0/upload_02.png)
+![image](/images/EPC3.0/upload_03.png)
+
+### SCP上传下载
+**适用于Windows、macOS、Linux 操作系统**
+
+从登录节点资源详情复制外网登录IP
+
+![image](/images/EPC3.0/upload_11.png)
+
+复制本地目录到集群，在命令行界面输入
+
+```
+$ scp -r local_folder root@113.31.xx.xx:remote_folder
+```
+### WinSCP上传下载(Windows)
+
+**适用于Windows操作系统**
+
+打开WinSCP，输入主机名、SSH用户、密码，点击登录。
+
+![image](/images/EPC3.0/upload_12.png)
+
+复制本地目录到集群，把左边的目录拖移到右边即可。
+
+![image](/images/EPC3.0/upload_13.png)
+
 
 
 
