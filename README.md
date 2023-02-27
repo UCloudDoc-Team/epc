@@ -19,6 +19,8 @@
    * [VASP安装](/epc/vasp.md)
    * [软件无法运行问题](/epc/adaption.md)
    * [如何关闭IE增强的安全配置](/epc/manual/IE.md)
+   * [如何远程登录EPC节点](/epc/manual/login.md)
+   * [如何通过镜像创建EPC节点](/epc/manual/mirror.md)
 
 
 
