@@ -8,7 +8,7 @@ https://docs.ucloud.cn/ufile/tools/us3fs/quickaccess
 
 ### US3 >> EPC集群
 
-#### 创建自己的US3 Bucket（如果想参与集群数据同步，请在上海二创建）
+#### 创建自己的US3 Bucket（如果想参与集群数据同步，请在华东（上海2）创建）
 https://console.ucloud.cn/ufile/ufile
 
 ![](/images/us3/US3.png)
